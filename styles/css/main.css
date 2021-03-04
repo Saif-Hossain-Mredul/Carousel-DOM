@@ -14,13 +14,12 @@ body .slider-container {
   width: 80vw;
   margin: 3rem auto;
   overflow: hidden;
-  border: 2px solid red;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 760px;
-  height: 60rem;
+  height: 55rem;
 }
 
 body .slider-container .slider-content {

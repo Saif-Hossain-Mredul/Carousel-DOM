@@ -15,11 +15,10 @@ body {
 		width: 80vw;
 		margin: 3rem auto;
 		overflow: hidden;
-		border: 2px solid rgb(255, 0, 0);
 		position: relative;
 		display: flex;
 		max-width: 760px;
-		height: 60rem;
+		height: 55rem;
 
 		.slider-content {
 			text-align: center;
@@ -41,13 +40,13 @@ body {
 				}
 			}
 		}
-    }
-    
-    .slider-button {
-        width: 80vw;
-        margin: 3rem auto;
-        max-width: 760px;
-        display: flex;
-        justify-content: space-around;
-    }
+	}
+
+	.slider-button {
+		width: 80vw;
+		margin: 3rem auto;
+		max-width: 760px;
+		display: flex;
+		justify-content: space-around;
+	}
 }
