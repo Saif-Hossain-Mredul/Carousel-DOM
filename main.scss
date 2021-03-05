@@ -48,5 +48,17 @@ body {
 		max-width: 760px;
 		display: flex;
 		justify-content: space-around;
+
+		.button {
+			border: 1px solid rgb(192, 192, 192);
+			padding: 2rem;
+			border-radius: 100px;
+			cursor: pointer;
+
+			span {
+				color: grey;
+				font-size: 2.5rem;
+			}
+		}
 	}
 }

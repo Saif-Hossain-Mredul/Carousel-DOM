@@ -58,4 +58,16 @@ body .slider-button {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+body .slider-button .button {
+  border: 1px solid silver;
+  padding: 2rem;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+body .slider-button .button span {
+  color: grey;
+  font-size: 2.5rem;
+}
 /*# sourceMappingURL=main.css.map */
