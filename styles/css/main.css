@@ -10,6 +10,58 @@ html {
   font-size: 62.5%;
 }
 
+body .header {
+  background-color: #35ca91;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 2rem 0;
+}
+
+body .header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 960px;
+  max-width: 960px;
+}
+
+body .header .nav-bar .nav-bar__left h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+body .header .nav-bar .nav-bar__right {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .header .nav-bar .nav-bar__right .nav-bar__right-element {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: white;
+}
+
+body .header .nav-bar .nav-bar__right .nav-bar__right-element:hover {
+  border-bottom: 2px solid white;
+}
+
 body .slider-container {
   width: 80vw;
   margin: 3rem auto;
